@@ -1,13 +1,12 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-export default function Navigation  (){
-
-    return (
-        <div>
-            {/* <h2>navbar</h2> */}
-            <Navbar bg="dark" variant="dark">
+export default function Navigation() {
+  return (
+    <div>
+      <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">
             {/* <img
@@ -19,8 +18,17 @@ export default function Navigation  (){
             />{'  '} */}
             Stephen Nene
           </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/blogs">Blogs</Nav.Link>
+            </Nav>
+            <Nav className="me-auto">
+              <Nav.Link href="/contact">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-        </div>
-    )
+    </div>
+  )
 }
