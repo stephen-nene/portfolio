@@ -4,19 +4,27 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
-import Services from './components/Services';
-import Work from './components/Work';
+import Skills from './components/Experience';
+import Blogs from './components/Blogs';
 import Contact from './components/Contact';
+import Certifications from './components/Certifications';
+import Projects from './components/Projects';
+import Education from './components/Education';
+
+
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat bg-auto bg-cover bg-center overflow-hidden'>
+    <div className='bg-site bg-no-repeat bg-cover bg-center overflow-hidden'>
+      <Nav />
       <Header />
       <Banner />
-      <Nav />
-      <About />
-      <Services />
-      <Work />
+      <About/>  {/* whoAmI */}
+      <Education />
+      <Projects /> {/* projects */}
+      <Certifications/>
+      <Skills /> {/* skills */}
+      <Blogs />
       <Contact />
       <div className='h-[4000px]'></div>
     </div>
