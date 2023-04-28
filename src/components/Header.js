@@ -8,8 +8,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center ">
           <a href="#home">
-            {" "}
-            <h3>Stephen Nene</h3><br/>
+            <h3>Stephen Nene</h3>
             {/* <img src={Logo} alt="Logo" /> */}
             <FcCommandLine />
           </a>
