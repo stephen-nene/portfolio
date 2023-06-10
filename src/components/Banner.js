@@ -89,7 +89,7 @@ const Banner = () => {
               <a href="https://github.com/stephen-nene">
                 <FaGithub />
               </a>
-              <a href="#2">
+              <a href="https://linkedin.com/in/stevenene/">
                 <FaLinkedin />
               </a>
               <a href="#2">
@@ -106,9 +106,9 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            class="hidden lg:flex flex-1 max-w-[300px] lg:max-w-[300px] "
+            className="hidden lg:flex flex-1 max-w-[300px] lg:max-w-[300px] "
           >
-            <img src={Image} alt="landing page" class="rounded-full" />
+            <img src={Image} alt="landing page" className="rounded-full" />
           </motion.div>
         </div>
       </div>

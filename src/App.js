@@ -24,7 +24,7 @@ const App = () => {
       <Projects /> {/* projects */}
       <Certifications/>
       <Skills /> {/* skills */}
-      <Blogs />
+      {/* <Blogs /> */}
       <Contact />
       <div className='h-[4000px]'></div>
     </div>

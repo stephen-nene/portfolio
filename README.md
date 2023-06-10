@@ -21,5 +21,5 @@ You can click the Preview link to take a look at your changes.
 
 ## Contact Me
 1. Email: [stevekid705@gmail.com](stevekid705@gmail.com)
-2. LinkedIn: [linkedin.com/in/stephen-nene/](linkedin.com/in/stephen-nene/)
-3. Personal website: [stevo-nene](https://stevonene.vercel.app/)
+2. LinkedIn: [linkedin.com/in/stephen-nene/](https://linkedin.com/in/stevenene/)
+3. Personal website: [stevo-nene](https://steve-nene.vercel.app/)
