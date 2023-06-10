@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaDiscord, FaTwitter } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
 import { Link } from "react-scroll";
-
+import resume from "../assets/stephen-Njoroge.pdf"
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
@@ -77,13 +77,13 @@ const Banner = () => {
                 to="contact"
                 spy={true}
                 smooth={true}>
-                <button  className="btn btn-lg">
+                <button className="btn btn-lg">
                   Contact-me
                 </button>
               </Link>
-              <a href="#ee" className="text-gradient btn-link">
-                Resume
-              </a>
+              <a href={resume} className="text-gradient btn-link" target="_blank" rel="noopener noreferrer">
+          Resume
+        </a>
             </motion.div>
             {/* socials */}
             <motion.div
