@@ -6,6 +6,8 @@ import { FaGithub, FaLinkedin, FaDiscord, FaTwitter } from "react-icons/fa";
 
 import { TypeAnimation } from "react-type-animation";
 
+import { Link } from "react-scroll";
+
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
@@ -71,9 +73,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-10 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button href="#contact" className="btn btn-lg">
-                Contact-me
-              </button>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}>
+                <button  className="btn btn-lg">
+                  Contact-me
+                </button>
+              </Link>
               <a href="#ee" className="text-gradient btn-link">
                 Resume
               </a>

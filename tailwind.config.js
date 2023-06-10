@@ -24,9 +24,9 @@ module.exports = {
         accent: '#B809C3',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
+        site: "url('./assets/images/site-bg.jpg')",
         // site: "url('./assets/1.jpg')",
-        about: "url('./assets/images/bugatti7.webp')",
+        about: "url('./assets/images/bugatti3.webp')",
         services: "url('./assets/services.png')",
       },
     },

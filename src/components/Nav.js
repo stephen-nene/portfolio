@@ -6,7 +6,7 @@ import {
   FcOrganization,
   FcIdea,
   FcContacts,
-  FcNews,
+  // FcNews,
   FcBusinessman,
 } from "react-icons/fc";
 
