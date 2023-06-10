@@ -6,6 +6,8 @@ import { FaGithub, FaLinkedin, FaDiscord, FaTwitter } from "react-icons/fa";
 
 import { TypeAnimation } from "react-type-animation";
 
+import { Link } from "react-scroll";
+import resume from "../assets/stephen-Njoroge.pdf"
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
@@ -71,10 +73,15 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-10 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button href="#contact" className="btn btn-lg">
-                Contact-me
-              </button>
-              <a href="#ee" className="text-gradient btn-link">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}>
+                <button className="btn btn-lg">
+                  Contact-me
+                </button>
+              </Link>
+              <a href={resume} className="text-gradient btn-link" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </motion.div>
@@ -89,7 +96,7 @@ const Banner = () => {
               <a href="https://github.com/stephen-nene">
                 <FaGithub />
               </a>
-              <a href="#2">
+              <a href="https://linkedin.com/in/stevenene/">
                 <FaLinkedin />
               </a>
               <a href="#2">
@@ -106,9 +113,9 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            class="hidden lg:flex flex-1 max-w-[300px] lg:max-w-[300px] "
+            className="hidden lg:flex flex-1 max-w-[300px] lg:max-w-[300px] "
           >
-            <img src={Image} alt="landing page" class="rounded-full" />
+            <img src={Image} alt="landing page" className="rounded-full" />
           </motion.div>
         </div>
       </div>

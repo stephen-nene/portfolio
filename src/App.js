@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Skills from './components/Experience';
-import Blogs from './components/Blogs';
+// import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
 import Projects from './components/Projects';
@@ -24,7 +24,7 @@ const App = () => {
       <Projects /> {/* projects */}
       <Certifications/>
       <Skills /> {/* skills */}
-      <Blogs />
+      {/* <Blogs /> */}
       <Contact />
       <div className='h-[4000px]'></div>
     </div>

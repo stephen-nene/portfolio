@@ -6,7 +6,7 @@ import {
   FcOrganization,
   FcIdea,
   FcContacts,
-  FcNews,
+  // FcNews,
   FcBusinessman,
 } from "react-icons/fc";
 
@@ -72,7 +72,7 @@ const Nav = () => {
           >
             <FcOrganization />
           </Link>
-          <Link
+          {/* <Link
             to="blogs"
             activeClass="active"
             spy={true}
@@ -80,7 +80,7 @@ const Nav = () => {
             className="cursor-pointer w-[60px] flex items-center justify-center"
           >
             <FcNews />
-          </Link>
+          </Link> */}
           <Link
             to="contact"
             activeClass="active"
