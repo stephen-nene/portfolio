@@ -82,8 +82,8 @@ const Banner = () => {
                 </button>
               </Link>
               <a href={resume} className="text-gradient btn-link" target="_blank" rel="noopener noreferrer">
-          Resume
-        </a>
+                Resume
+              </a>
             </motion.div>
             {/* socials */}
             <motion.div
